@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shipping Management System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Shipping Management System</h1>
+        <form id="shipmentForm">
+            <input type="text" id="shipmentID" placeholder="Shipment ID" required>
+            <input type="text" id="recipientName" placeholder="Recipient Name" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <button type="submit">Add Shipment</button>
+        </form>
+        <h2>Shipments List</h2>
+        <ul id="shipmentsList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
